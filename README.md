@@ -1,27 +1,32 @@
-# Nmap Automation Tool
+# Cybersecurity Projects
 
-A Python-based Nmap automation script designed to streamline network scanning tasks for cybersecurity professionals, network engineers, and penetration testers.
+This repository is a collection of my personal cybersecurity tools, automation scripts, and experiments. Each subdirectory within this repo represents an independent project focusing on different aspects of cybersecurity — from network scanning to vulnerability detection and more.
 
-## Overview
+> 📌 These projects are built for learning, automation, and practical hands-on application in real-world scenarios.
 
-This tool wraps around the Nmap command-line utility, providing a user-friendly way to automate scans, parse output, and store results. It supports multiple scanning options and produces organized, readable outputs.
+---
 
-## Features
+## Available Projects
 
-- Perform basic, aggressive, or custom scans
-- Automatically parse and save results (TXT/HTML/XML)
-- Optional OS detection and service enumeration
-- Easily customizable through command-line arguments or config files
-- Lightweight and beginner-friendly
+### [nmap-automation](./nmap-automation)
 
-## Requirements
+Automates the process of scanning a target network using Nmap and formats the results for easier analysis. Great for quick recon and initial enumeration phases.
 
-- Python 3.7+
-- [Nmap](https://nmap.org/) installed and accessible from the terminal
-- Libraries: `subprocess`, `argparse`, `os`, `datetime`, etc.
+- Features:
+  - Custom target input
+  - Automates various Nmap scan types
+  - Saves and formats output
 
-Install Nmap:
-```bash
-sudo apt install nmap  # Debian/Ubuntu
-# Disclaimer
-This tool is intended for authorized use only. Always ensure you have permission to scan a network or system.
+---
+
+## 🚧 In Progress
+
+I'm currently working on additional tools and utilities — including vulnerability analyzers, packet sniffers, and reporting tools.  
+**Stay tuned. Big things are coming.**
+
+---
+
+# Follow the specific README inside each folder
+> All tools and scripts provided in this repository are intended for educational and authorized use only.
+> Do not use these tools to scan, attack, or interact with any network or system without explicit permission.
+> I am not responsible for any misuse of the contents of this repository
